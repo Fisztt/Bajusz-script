@@ -1,0 +1,93 @@
+.container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.suprise {
+  visibility: hidden;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.623);
+  color: rgba(0, 0, 255, 0.616);
+  font-size: 50px;
+  top: 85px;
+  left: 600px;
+  display: flex;
+  position: fixed;
+}
+#animate {
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background-color: red;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-right: 75em;
+}
+#animate2 {
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background-color: red;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 75em;
+}
+
+h1 {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+button {
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+.funkciok {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  margin-right: 20px;
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.btn3 {
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.btn4 {
+  margin-left: 20px;
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 15px;
+}
