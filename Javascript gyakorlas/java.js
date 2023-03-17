@@ -1,3 +1,6 @@
+
+ // Amúgy ez nem müködik, minden html-en belül van script //
+
 function mozgas() {
   let id = null;
   const elem = document.getElementById("animate");
