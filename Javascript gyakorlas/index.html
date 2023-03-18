@@ -16,17 +16,13 @@
       <p id="suprise" class="suprise">Suprise</p>
       <div class="funkciok">
         <input
+          id="btn2"
           class="btn2"
           type="button"
           value="Tüntesd el a szöveget"
-          onclick="eltunes()"
-        />
-        <input
-          class="btn3"
-          type="button"
-          value="Mutasd a szöveget"
           onclick="mutasd()"
         />
+
         <div
           id="animate"
           onmouseover="animatemouseover(this)"
@@ -53,13 +49,15 @@
     </div>
     <script>
       function mutasd() {
-        document.getElementById("id1").style.visibility = "visible";
-        document.getElementById("suprise").style.visibility = "visible";
-      }
-
-      function eltunes() {
-        document.getElementById("id1").style.visibility = "hidden";
-        document.getElementById("suprise").style.visibility = "hidden";
+        if (document.getElementById("id1").style.visibility === "hidden") {
+          document.getElementById("id1").style.visibility = "visible";
+          document.getElementById("suprise").style.visibility = "visible";
+          document.getElementById("btn2").value = "Tüntesd el a szöveget";
+        } else {
+          document.getElementById("id1").style.visibility = "hidden";
+          document.getElementById("suprise").style.visibility = "hidden";
+          document.getElementById("btn2").value = "Mutasd a szöveget";
+        }
       }
       function animatemouseover(azam) {
         azam.innerHTML = "Köszi";

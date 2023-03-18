@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100%;
+}
 .container {
   margin-top: 50px;
   position: relative;
@@ -9,10 +16,8 @@
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.623);
   color: rgba(0, 0, 255, 0.616);
   font-size: 50px;
-  top: 85px;
-  left: 600px;
   display: flex;
-  position: fixed;
+  justify-content: center;
 }
 #animate {
   justify-content: center;
@@ -74,19 +79,17 @@ button {
   align-items: center;
 }
 .btn2 {
+  line-height: 25px;
+  width: 180px;
   margin-right: 20px;
   border: 3px solid black;
   font-weight: bolder;
   font-size: 15px;
 }
 
-.btn3 {
-  border: 3px solid black;
-  font-weight: bolder;
-  font-size: 15px;
-}
 .btn4 {
-  margin-left: 20px;
+  line-height: 25px;
+  width: 180px;
   border: 3px solid black;
   font-weight: bolder;
   font-size: 15px;
