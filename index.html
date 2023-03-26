@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ea8bb19885.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="valami.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bajusz script</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="id1">Menő átváltozós cucc</h1>
+      <div class="button" id="btn1">
+        <button type="button" onclick="hatter()" ; ,>Katt ide!</button>
+      </div>
+      <p id="suprise" class="suprise">Suprise</p>
+      <div class="funkciok">
+        <input
+          id="btn2"
+          class="btn2"
+          type="button"
+          value="Tüntesd el a szöveget"
+          onclick="mutasd()"
+        />
+
+        <div
+          id="animate"
+          onmouseover="animatemouseover(this)"
+          onmouseout="animatemouseout(this)"
+        >
+          Vidd rám <br />
+          az egeret a
+        </div>
+        <div
+          id="animate2"
+          onmouseover="animatemouseover(this)"
+          onmouseout="animatemouseout(this)"
+        >
+          Vidd rám <br />
+          az egeret
+        </div>
+        <input
+          type="button"
+          value="Menő animáció"
+          class="btn4"
+          onclick="mozgas(),mozgas2()"
+        />
+        <a onclick="kilepes()" class="kilepes" id="kilepes">
+          <i class="fa-solid fa-xmark" id="kisx"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
